@@ -59,7 +59,7 @@ public class Balle {
         //graphics.drawOval(rectangle.x, rectangle.y, rectangle.width, rectangle.height);
     }
 
-    //changer color with the array of colors in a loop.
+    //Color changer with the array of colors in a loop.
     public void changeCouleur() {
         color = colors[iColor];
         iColor = (iColor + 1) % colors.length;
